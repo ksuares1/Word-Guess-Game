@@ -1,6 +1,5 @@
-.container{
- /* background-image: assets/images/Holiday-Background; */
-    height: 100%
-    width: 100%
-
+.jumbotron jumboton-fluid{
+    background-image: url("assets/images/Holiday-Background.jpg)
 }
+    /* background-size: cover; */
+  
