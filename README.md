@@ -9,6 +9,8 @@ Festive
 
 
 Players are asked questions about Kiehl's products, and based on their answers it recommends those products to the player.
+Divs: for word bank
+Jumbtron: Kiehl's Winter Wonderland Logo
 Prompt(could make this a function): Who is this gift for?
 Answers(conditionals): Friend
   Mom
