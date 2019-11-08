@@ -1,5 +1,7 @@
-.jumbotron jumboton-fluid{
-    background-image: url("assets/images/Holiday-Background.jpg)
+.card-title{
+    text-align: center;
 }
-    /* background-size: cover; */
-  
+
+.card-text{
+    text-align: center;
+}
