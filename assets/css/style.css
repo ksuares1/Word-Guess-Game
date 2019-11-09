@@ -1,7 +1,25 @@
-.card-title{
-    text-align: center;
+body{
+    background-image: url("../images/Holiday-Background.jpg");
+    background-size: 100%;
+
 }
 
-.card-text{
-    text-align: center;
+.jumbotron{
+    background-image: url("../images/caley-dimmock-_HCpwe1-Prc-unsplash.jpg");
+    background-size:  100% 400px;
+    text-align:center;
 }
+.words{
+    background-color: white;
+    width: 10%;
+    /* margin: auto; */
+    float: left;
+}
+
+.question-box{
+    background-color: white;
+    background-size: 50% 50%;
+    text-align:center;
+    float: right;
+}
+
