@@ -1,16 +1,41 @@
 # Word-Guess-Game 
-Create a game to help customers pick the ultimate holiday gift for their friends, family, co-workers, and significant others.
+Purpose: During the holidays clients routinely come into Kiehl’s to purchase gifts for a special person in their lives. They have chosen to gift Kiehl’s to this person because they would like this individual to have a sensorial pampering experience, but they don’t want this person to feel offended when they are gifted with a bar of soap or body lotion. At Kiehl’s we have created customized value sets for clients this season, in addition to our customized complimentary gift wrapping service. 
+The Kiehl’s holiday gift guide will help customers choose items to customize their gifts or value sets that will introduce new client's to the world of Kiehl’s. 
+ 
+Objective: Create a game to help customers pick the ultimate holiday gift for their friends, family, co-workers, and significant others.
 
-Background Holiday Wonderland Theme
+Theme:
+
+Background Holiday Wonderland 
 Tinsel
 Christmas Trees
 Red and White Background
 Festive
 
+Colors: 
+Green
+Red
 
-Players are asked questions about Kiehl's products, and based on their answers it recommends those products to the player.
-Divs: for word bank
-Jumbtron: Kiehl's Winter Wonderland Logo
+Game Outline
+
+<Header>
+
+Jumbotron
+Background Image: Holiday presents
+Text: Kiehl’s Holiday Wonderland
+Let’s give the ultimate gift this holiday season!
+
+Button: Let’s play (This button will lead players into the next div, which ask players a series of questions) 
+
+</header>
+
+<div>
+Word Bank
+The word bank will be a hint for players to figure out the answers to the prompted questions they are asked. 
+</div>
+
+< div class= ”center”>
+Players are asked questions about Kiehl's products, and based on their answers it recommends these products to the player.
 Prompt(could make this a function): Who is this gift for?
 Answers(conditionals): Friend
   Mom
@@ -23,6 +48,11 @@ Answers(conditionals): Friend
 Other
  
 Example: This product was developed for harsh climates, but keeps your skin hydrated in various temperatures.
+
 Answer: Ultra Facial Cream - It will have 16 lines of _ _
-Wrong Answer: Rosa Artica(7 lines) - Then it would recommend Ultra Facial Cream to them, and picture of that would pop-up
+
+Wrong Answer: Rosa Artica(7 lines) - Then it would recommend Ultra Facial Cream to them, and picture of that would pop-up.
+When a player gets an answer wrong it defaults and recommends another gift option.
+
+
 
