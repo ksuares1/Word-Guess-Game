@@ -40,7 +40,7 @@ body{
 }
 
 .questions{
-    background-color: white;
+    background-color: transparent;
     width: 90%
 
 }
@@ -49,6 +49,7 @@ body{
     margin:3em auto;
     width: 50%;
     background: white;
+    color: black;
     
 }
   
