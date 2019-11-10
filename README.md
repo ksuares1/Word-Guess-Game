@@ -18,8 +18,6 @@ Red
 
 Game Outline
 
-<Header>
-
 Jumbotron
 Background Image: Holiday presents
 Text: Kiehl’s Holiday Wonderland
@@ -27,14 +25,9 @@ Let’s give the ultimate gift this holiday season!
 
 Button: Let’s play (This button will lead players into the next div, which ask players a series of questions) 
 
-</header>
-
-<div>
 Word Bank
 The word bank will be a hint for players to figure out the answers to the prompted questions they are asked. 
-</div>
 
-< div class= ”center”>
 Players are asked questions about Kiehl's products, and based on their answers it recommends these products to the player.
 Prompt(could make this a function): Who is this gift for?
 Answers(conditionals): Friend
