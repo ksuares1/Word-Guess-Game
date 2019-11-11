@@ -1,6 +1,7 @@
 
-// Once the player selects the let's play button, it leads them into the game.
-// This game will ask players a series of questions for everyone that they get correct, they will receive a complimentary sample from any Kiehl's store.
+
+// This game will ask players a series of questions for every one they get correct, that gift set or product will pop-up.
+// For every answer they get incorrect it will recommend another gift set to them. 
 //A word bank is provided for players, to assist them in selecting the correct answer.
 // A button feature allows players to select a word from the word bank.
 
@@ -10,3 +11,15 @@
 var email = prompt;
 prompt("Please enter your email address, so you can receive all of your Kiehl's gift recommendations!");
 
+
+// // Create an on click feature for the let's play button
+// // Once the player selects the let's play button, it leads them into the game.
+// var BtnJS= document.getElementsByClassName("Start Game");
+// var playGame = function()
+// {
+//     document.header.div.a= "questions";
+// };
+
+// BtnJS.addEventListener(click,playGame);
+
+<input type="play" onClick="document.getElementByClassName('btn').scrollIntoView(.questions);" />
