@@ -8,5 +8,5 @@
 
 // Create a prompt that asks players for their email address, so all recommended products can be emailed to them.
 var email = prompt;
-prompt("Please enter your email address, so you can receive all Kiehl's gift recommendations!");
+prompt("Please enter your email address, so you can receive all of your Kiehl's gift recommendations!");
 
