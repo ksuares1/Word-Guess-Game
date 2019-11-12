@@ -22,4 +22,6 @@ prompt("Please enter your email address, so you can receive all of your Kiehl's 
 
 // BtnJS.addEventListener(click,playGame);
 
-{/* <input type="play" onClick="document.getElementByClassName('btn').scrollIntoView(.questions);" /> */}
+
+/* <input type="play" onClick="document.getElementByClassName('btn').scrollIntoView(.questions);" /> */
+// document.getElementByClassName(click, 'btn').scrollIntoView(.questions);
