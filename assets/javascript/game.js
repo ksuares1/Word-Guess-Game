@@ -11,6 +11,10 @@
 var email = prompt;
 prompt("Please enter your email address, so you can receive all of your Kiehl's gift recommendations!");
 
+function scrollFunction() {
+    var questions = document.getElementById('questions');
+    questions.scrollIntoView();
+}
 
 // // Create an on click feature for the let's play button
 // // Once the player selects the let's play button, it leads them into the game.
