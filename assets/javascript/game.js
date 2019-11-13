@@ -6,14 +6,11 @@
 // A button feature allows players to select a word from the word bank.
 
 // console.log("game.js");
-$(document).ready(function(){
-$(#)
-}
 
 
 // Create a prompt that asks players for their email address, so all recommended products can be emailed to them.
-var email = prompt;
-prompt("Please enter your email address, so you can receive all of your Kiehl's gift recommendations!");
+// var email = prompt;
+// prompt("Please enter your email address, so you can receive all of your Kiehl's gift recommendations!");
 
 function scrollFunction() {
     var questions = document.getElementById('questions');
