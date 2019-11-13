@@ -6,6 +6,10 @@
 // A button feature allows players to select a word from the word bank.
 
 // console.log("game.js");
+$(document).ready(function(){
+$(#)
+}
+
 
 // Create a prompt that asks players for their email address, so all recommended products can be emailed to them.
 var email = prompt;
