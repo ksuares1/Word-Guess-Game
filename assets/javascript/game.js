@@ -9,8 +9,8 @@
 
 
 // Create a prompt that asks players for their email address, so all recommended products can be emailed to them.
-// var email = prompt;
-// prompt("Please enter your email address, so you can receive all of your Kiehl's gift recommendations!");
+var email = prompt;
+prompt("Please enter your email address, so you can receive all of your Kiehl's gift recommendations!");
 // Create an on click feature for the let's play button. Once the player selects the let's play button, it leads them into the game.
     function scrollFunction() {
     var questions = document.getElementById('questions');
