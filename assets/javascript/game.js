@@ -18,7 +18,7 @@ prompt("Please enter your email address, so you can receive all of your Kiehl's 
 
     };
 
-    //List products
+    // List products
     var products=["Creme de Corps", "Ultra Facial Cream", "Calendula Deep Foaming Face Wash", "Calendula Toner", "Midnight Recovery Oil Concentrate", "Ultimate Hand Salve", "Pure Vitality", "Daily Reviving Concentrate"];
     var randomWords;
     var wins = 0;
@@ -39,4 +39,4 @@ prompt("Please enter your email address, so you can receive all of your Kiehl's 
     }
     
     gameSetUp();
-    }
+    

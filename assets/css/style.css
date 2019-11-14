@@ -47,7 +47,7 @@ body{
     color:black;
     
 }
-  .game-setup-wrapper{
+  #game-setup-wrapper{
       background-color: white; 
       width: 10%;
       float: left;
