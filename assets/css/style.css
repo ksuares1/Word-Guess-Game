@@ -29,7 +29,6 @@ body{
 #word-bank{
     background-color: white;
     width: 10%;
-    /* margin: auto; */
     float: left;
 }
 
@@ -49,7 +48,7 @@ body{
     
 }
   .game-setup-wrapper{
-      background-color: white;
+      background-color: white; 
       width: 10%;
       float: left;
       text-align:center;
