@@ -20,4 +20,23 @@ prompt("Please enter your email address, so you can receive all of your Kiehl's 
 
     //List products
     var products=["Creme de Corps", "Ultra Facial Cream", "Calendula Deep Foaming Face Wash", "Calendula Toner", "Midnight Recovery Oil Concentrate", "Ultimate Hand Salve", "Pure Vitality", "Daily Reviving Concentrate"];
+    var randomWords;
+    var wins = 0;
+    var loses = 0;
+    var triesLeft;
+    var displayWord = [];
 
+    function gameLayout(){
+        randomWords = products[Math.floor(Math.random() * products.length)];
+        triesLeft= 8;
+        for (var i = 0; i < randomWords.length; i++) {
+            displayWord.push('_');
+        }
+        console.log('randomWords', randomWords);
+        console.log('displayWord', displayWord);
+    
+        document.getElementById('guessedWord').innerHTML = displayWord.join(' ');
+    }
+    
+    gameSetUp();
+    }
