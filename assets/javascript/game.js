@@ -18,7 +18,6 @@ prompt("Please enter your email address, so you can receive all of your Kiehl's 
 
     };
 
+    //List products
+    var products=["Creme de Corps", "Ultra Facial Cream", "Calendula Deep Foaming Face Wash", "Calendula Toner", "Midnight Recovery Oil Concentrate", "Ultimate Hand Salve", "Pure Vitality", "Daily Reviving Concentrate"];
 
-
-/* <input type="play" onClick="document.getElementByClassName('btn').scrollIntoView(.questions);" /> */
-// document.getElementByClassName(click, 'btn').scrollIntoView(.questions);
