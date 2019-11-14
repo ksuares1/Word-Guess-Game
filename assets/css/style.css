@@ -48,7 +48,7 @@ body{
     color:black;
     
 }
-  .game-setup{
+  .game-setup-wrapper{
       background-color: white;
       width: 10%;
       float: left;
@@ -57,6 +57,3 @@ body{
   }
 
 
-.beginning-game{
-    background-color: white;
-}
