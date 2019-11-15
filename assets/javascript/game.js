@@ -40,6 +40,9 @@ prompt("Please enter your email address, so you can receive all of your Kiehl's 
     
         document.getElementById('guessedWord').innerHTML = displayWord.join(' ');
     }
-    
+
     gameLayout();
     
+    document.onkeyup = function(event) {
+        var player = event.key;
+        if(player ==="Creme de Corps") ||(prod)
