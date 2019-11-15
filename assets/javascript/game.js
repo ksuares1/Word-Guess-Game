@@ -9,6 +9,9 @@
 
 
 // Create a prompt that asks players for their email address, so all recommended products can be emailed to them.
+var intro = prompt;
+prompt("Happy Holidays! Who are you shopping for today?");
+
 var email = prompt;
 prompt("Please enter your email address, so you can receive all of your Kiehl's gift recommendations!");
 // Create an on click feature for the let's play button. Once the player selects the let's play button, it leads them into the game.
@@ -38,5 +41,5 @@ prompt("Please enter your email address, so you can receive all of your Kiehl's 
         document.getElementById('guessedWord').innerHTML = displayWord.join(' ');
     }
     
-    gameSetUp();
+    gameLayout();
     
