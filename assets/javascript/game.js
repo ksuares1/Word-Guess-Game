@@ -15,11 +15,11 @@ prompt("Happy Holidays! Who are you shopping for today?");
 var email = prompt;
 prompt("Please enter your email address, so you can receive all of your Kiehl's gift recommendations!");
 // Create an on click feature for the let's play button. Once the player selects the let's play button, it leads them into the game.
-    function scrollFunction() {
-    var questions = document.getElementById('questions');
-    questions.scrollIntoView();
+    // function scrollFunction() {
+    // var questions = document.getElementById('questions');
+    // questions.scrollIntoView();
 
-    };
+    // };
 
     // List products
     var products=["Creme de Corps", "Ultra Facial Cream", "Calendula Deep Foaming Face Wash", "Calendula Toner", "Midnight Recovery Oil Concentrate", "Ultimate Hand Salve", "Pure Vitality"];
@@ -45,7 +45,7 @@ prompt("Please enter your email address, so you can receive all of your Kiehl's 
     
     document.onkeyup = function(event) {
         var player = event.key;
-        if(player === "Creme de Corps") ||(player === "Calendula Deep Foaming Face Wash") ||
+        if(player === "Creme de Corps" && "Calendula Deep Foaming Face Wash") 
            (player === "Calendula Toner") || (player === "Midnight Recovery Oil Concentrate") ||
            (player === "Ultimate Hand Salve") || (player === "Pure Vitality") 
     }
