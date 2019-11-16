@@ -22,7 +22,7 @@ prompt("Please enter your email address, so you can receive all of your Kiehl's 
     // };
 
     // List products
-    var products=["Creme de Corps", "Ultra Facial Cream", "Calendula Deep Foaming Face Wash", "Calendula Toner", "Midnight Recovery Oil Concentrate", "Ultimate Hand Salve", "Pure Vitality"];
+    var products=["creme de corps", "ultra facial cream", "calendula deep foaming face wash", "calendula toner", "midnight recovery oil concentrate", "ultimate hand salve", "pure vitality"];
     var randomWords;
     var wins = 0;
     var loses = 0;
@@ -45,7 +45,8 @@ prompt("Please enter your email address, so you can receive all of your Kiehl's 
     
     document.onkeyup = function(event) {
         var player = event.key;
-        if(player === "Creme de Corps" && "Calendula Deep Foaming Face Wash") 
+        if(player === "a") || (player === "b") 
+        alendula Deep Foaming Face Wash") 
            (player === "Calendula Toner") || (player === "Midnight Recovery Oil Concentrate") ||
            (player === "Ultimate Hand Salve") || (player === "Pure Vitality") 
     }
