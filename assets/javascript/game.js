@@ -43,6 +43,13 @@ prompt("Please enter your email address, so you can receive all of your Kiehl's 
     gameLayout();
     
     //   Use this array to create buttons on the screen.
-    var letters= ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "_"];
-    for (var i = 0; i < letters.length; i++) {
-    }
+    // var letters= ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "_"];
+    // for (var i = 0; i < letters.length; i++) {
+    // }
+
+        //Player presses a key 
+     // var player = event.key;
+        // if(player === "a"&& "b") 
+        // // alendula Deep Foaming Face Wash") 
+        //    (player === "Calendula Toner") || (player === "Midnight Recovery Oil Concentrate") ||
+        //    (player === "Ultimate Hand Salve") || (player === "Pure Vitality") 
