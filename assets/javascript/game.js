@@ -22,7 +22,7 @@ prompt("Please enter your email address, so you can receive all of your Kiehl's 
     };
 
     // List products
-    var products=["Creme de Corps", "Ultra Facial Cream", "Calendula Deep Foaming Face Wash", "Calendula Toner", "Midnight Recovery Oil Concentrate", "Ultimate Hand Salve", "Pure Vitality", "Daily Reviving Concentrate"];
+    var products=["Creme de Corps", "Ultra Facial Cream", "Calendula Deep Foaming Face Wash", "Calendula Toner", "Midnight Recovery Oil Concentrate", "Ultimate Hand Salve", "Pure Vitality"];
     var randomWords;
     var wins = 0;
     var loses = 0;
@@ -31,7 +31,7 @@ prompt("Please enter your email address, so you can receive all of your Kiehl's 
 
     function gameLayout(){
         randomWords = products[Math.floor(Math.random() * products.length)];
-        triesLeft= 8;
+        triesLeft= 7;
         for (var i = 0; i < randomWords.length; i++) {
             displayWord.push('_');
         }
@@ -45,4 +45,8 @@ prompt("Please enter your email address, so you can receive all of your Kiehl's 
     
     document.onkeyup = function(event) {
         var player = event.key;
-        if(player ==="Creme de Corps") ||(prod)
+        if(player === "Creme de Corps") ||(player === "Calendula Deep Foaming Face Wash") ||
+           (player === "Calendula Toner") || (player === "Midnight Recovery Oil Concentrate") ||
+           (player === "Ultimate Hand Salve") || (player === "Pure Vitality") 
+    }
+           console.log(event);
