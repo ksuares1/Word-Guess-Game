@@ -62,17 +62,24 @@
     <div class="question-message">Happy Holidays! Who are you shopping for today?</p>
   </div> -->
   <div id="game-setup-wrapper">
-    <div>THE WORD IS: <span id="guessedWord"></span> </div>
+    <div>THE WORD IS: <span id="guessedWord" onload = setWord();></span> </div>
     You guessed: <span id="guessedLetter"></span> <br />
     Tries left: <span id="triesLeft"></span><br />
-    Wins: <span id="wins"></span><br />
+    Wins: <span id="wins"></span><br/>
     Losses: <span id="losses"></span><br />
-    <button id=clear>Reset Game</button><br />
+    <button id=clear>Reset Game</button><br/>
   </div>
   </div>
 
 
   <script src="./assets/javascript/game.js" type="text/javascript">
+  </script>
+  
+  <script>
+  function setWord(){
+    var gWord= 'Ultra Facial Cream';
+    document.getElementById('guessedWord').innerHTML= "test" gWord;
+  }
   </script>
 
 </body>
