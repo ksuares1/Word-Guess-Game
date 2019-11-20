@@ -48,8 +48,13 @@ prompt("Please enter your email address, so you can receive all of your Kiehl's 
     // }
 
         //Player presses a key 
-     // var player = event.key;
-        // if(player === "a"&& "b") 
-        // // alendula Deep Foaming Face Wash") 
+     var player = event.key;
+  
+     //  Is the letter in the word?
+        if(letter=== "A"&& "B"){
+
+        }
+        //  (Calendula Deep Foaming Face Wash") 
         //    (player === "Calendula Toner") || (player === "Midnight Recovery Oil Concentrate") ||
         //    (player === "Ultimate Hand Salve") || (player === "Pure Vitality") 
+    // }); 
