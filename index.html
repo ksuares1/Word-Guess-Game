@@ -22,7 +22,7 @@
       <p class="lead">
         Give the ultimate gift this holiday season!
       </p>
-      <button class="btn">
+      <button class="btn" onclick=playGame();>
         Let's Play
       </button>
       <!-- onclick="scrollFunction()" -->
@@ -62,24 +62,67 @@
     <div class="question-message">Happy Holidays! Who are you shopping for today?</p>
   </div> -->
   <div id="game-setup-wrapper">
-    <div>THE WORD IS: <span id="guessedWord" onload = setWord();></span> </div>
-    You guessed: <span id="guessedLetter"></span> <br />
+    <div>THE WORD IS: <div id="guessedWord" style="display: inline"> </div>
+    </div>
+    <div>You guessed: <div id="guessedLetter" style="display: inline"></div>
     Tries left: <span id="triesLeft"></span><br />
-    Wins: <span id="wins"></span><br/>
+    Wins: <span id="wins"></span><br />
     Losses: <span id="losses"></span><br />
-    <button id=clear>Reset Game</button><br/>
+    <button id=clear>Reset Game</button><br />
   </div>
   </div>
 
 
-  <script src="./assets/javascript/game.js" type="text/javascript">
-  </script>
-  
+  <!-- <script src="./assets/javascript/game.js" type="text/javascript"> -->
+  <!-- </script> -->
+
   <script>
-  function setWord(){
-    var gWord= 'Ultra Facial Cream';
-    document.getElementById('guessedWord').innerHTML= "test" gWord;
-  }
+    function setWord() {
+      var gWord = 'Ultra Facial Cream';
+      document.getElementById('guessedWord').innerHTML = gWord;
+    }
+
+    function playGame() {
+
+      var intro = prompt;
+      prompt("Happy Holidays! Who are you shopping for today?");
+
+      var email = prompt;
+      prompt("Please enter your email address, so you can receive all of your Kiehl's gift recommendations!");
+      var products = ["Creme De Corps", "Ultra Facial Cream", "Calendula Deep Foaming Face Wash", "Calendula Toner", "Midnight Recovery Oil concentrate", "Ultimate Hand Salve", "Pure Vitality"];
+      var randomWords;
+      var wins = 0;
+      // var loses = 0;
+      var choice = products[Math.floor(Math.random() * products.length)];
+      // document.getElementById('guessedWord').innerHTML = choice;
+      var underscores = '';
+      for (var i = 0; i < choice.length; i++) {
+        if (choice[i] != ' ') {
+          underscores = underscores + ' _ ';
+        }
+        else {
+          underscores = underscores + ' ';
+
+        }
+      }
+      document.getElementById('guessedWord').innerHTML = underscores;
+      var guessedLetter = []
+      var letter = prompt("Guess a letter");
+      guessedletter.push(letter);
+
+      if (choice.indexOf(letter) >= 0) {
+        for (var i = 0; i < choice.length; i++) {
+          if (choice[i] != letter ) {
+            underscores[i] = letter;
+          }
+          else {
+           alert( " Nice try, try again!");
+          }
+        }
+      }
+      document.getElementById('guessedLetter').innerHTML = underscores;
+    }
+
   </script>
 
 </body>

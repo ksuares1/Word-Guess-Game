@@ -6,13 +6,16 @@
 
 // console.log("game.js");
 
-$(document).ready(function() {
+// $(document).ready(function() {
 // Create a prompt that asks players for their email address, so all recommended products can be emailed to them.
-var intro = prompt;
-prompt("Happy Holidays! Who are you shopping for today?");
 
-var email = prompt;
-prompt("Please enter your email address, so you can receive all of your Kiehl's gift recommendations!");
+// function playGame(){
+
+// var intro = prompt;
+// prompt("Happy Holidays! Who are you shopping for today?");
+
+// var email = prompt;
+// prompt("Please enter your email address, so you can receive all of your Kiehl's gift recommendations!");
 // Create an on click feature for the let's play button. Once the player selects the let's play button, it leads them into the game.
     // function scrollFunction() {
     // var questions = document.getElementById('questions');
@@ -21,10 +24,10 @@ prompt("Please enter your email address, so you can receive all of your Kiehl's 
     // };
 
     // List products
-    var products=["Creme De Corps", "Ultra Facial Cream", "Calendula Deep Foaming Face Wash", "Calendula Toner", "Midnight Recovery Oil concentrate", "Ultimate Hand Salve", "Pure Vitality"];
-    var randomWords;
-    var wins = 0;
-    var loses = 0;
+    // var products=["Creme De Corps", "Ultra Facial Cream", "Calendula Deep Foaming Face Wash", "Calendula Toner", "Midnight Recovery Oil concentrate", "Ultimate Hand Salve", "Pure Vitality"];
+    // var randomWords;
+    // var wins = 0;
+    // var loses = 0;
     var triesLeft;
     var displayWord = [];
 
@@ -42,19 +45,15 @@ prompt("Please enter your email address, so you can receive all of your Kiehl's 
 
     gameLayout();
     
-    //   Use this array to create buttons on the screen.
-    // var letters= ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "_"];
-    // for (var i = 0; i < letters.length; i++) {
-    // }
-
-        //Player presses a key 
-     var player = event.key;
   
-     //  Is the letter in the word?
-        if(letter=== "A"&& "B"){
+        //Player presses a key 
+    //  var player = event.key;
+  
+    //  //  Is the letter in the word?
+    //     if(letter=== "A"&& "B"){
 
         }
         //  (Calendula Deep Foaming Face Wash") 
         //    (player === "Calendula Toner") || (player === "Midnight Recovery Oil Concentrate") ||
         //    (player === "Ultimate Hand Salve") || (player === "Pure Vitality") 
-    // }); 
+    }
