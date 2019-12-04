@@ -52,8 +52,8 @@
     //  //  Is the letter in the word?
     //     if(letter=== "A"&& "B"){
 
-        }
+        // }
         //  (Calendula Deep Foaming Face Wash") 
         //    (player === "Calendula Toner") || (player === "Midnight Recovery Oil Concentrate") ||
         //    (player === "Ultimate Hand Salve") || (player === "Pure Vitality") 
-    }
+    // }

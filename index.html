@@ -65,11 +65,11 @@
     <div>THE WORD IS: <div id="guessedWord" style="display: inline"> </div>
     </div>
     <div>You guessed: <div id="guessedLetter" style="display: inline"></div>
-    Tries left: <span id="triesLeft"></span><br />
-    Wins: <span id="wins"></span><br />
-    Losses: <span id="losses"></span><br />
-    <button id=clear>Reset Game</button><br />
-  </div>
+      Tries left: <span id="triesLeft"></span><br />
+      Wins: <span id="wins"></span><br />
+      Losses: <span id="losses"></span><br />
+      <button id=clear>Reset Game</button><br />
+    </div>
   </div>
 
 
@@ -108,21 +108,30 @@
       document.getElementById('guessedWord').innerHTML = underscores;
       var guessedLetter = []
       var letter = prompt("Which customer favorite face cream was created for mountain climbers for their hike to Mt. Everest?");
+      switch (letter) {
+        case "Ultra Facial Cream":
+          text = "Correct!";
+          break;
+        case "Creme de Corps":
+          text = "That'/s incorrect! Try Again.";
+        default:
+          text = (".assets/css/images/Ultra-Facial-Cream");
+      }
       var questionTwo = prompt("What body moisturizer contains shea butter, squalane, soy milk, and honey?");
       var questionThree = prompt("Which facial cleanser is made with hand picked pesticide free flowers? Hint: This facial cleanser foams to a rich lather.");
       var questionFour = prompt("Known for it's ability to restore and replenish the skin, this hydration booster is a necessity during colder months! Which oil concentrate contains lavender essential oil?");
       var questionFive = prompt("Which hand cream has a menthol scent, and helps to nourish and moisturize dry and cracked hands?");
       var questionSix = prompt("This luxurious moisturizer is made from New Zealand Manuka Honey. Which facial moisturizer helps to smooth skin texture and protect the skin barrier?");
       guessedletter.push(letter);
-     
+
 
       if (choice.indexOf(letter) >= 0) {
         for (var i = 0; i < choice.length; i++) {
-          if (choice[i] != letter ) {
+          if (choice[i] != letter) {
             underscores[i] = letter;
           }
           else {
-           alert( " Nice try, try again!");
+            alert(" Nice try, try again!");
           }
         }
       }
