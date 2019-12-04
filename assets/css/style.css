@@ -49,10 +49,15 @@ body{
 }
   #game-setup-wrapper{
       background-color: white; 
-      width: 10%;
+      width: 20%;
+      margin-right:5px;
       float: right;
       text-align:center;
         
+  }
+
+  #game-section p{
+      margin:0;
   }
 
 
