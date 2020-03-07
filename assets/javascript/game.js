@@ -6,7 +6,7 @@
 
 // console.log("game.js");
 
-// $(document).ready(function() {
+ $(document).ready(function() {
 // Create a prompt that asks players for their email address, so all recommended products can be emailed to them.
 
 // function playGame(){
@@ -56,4 +56,3 @@
         //  (Calendula Deep Foaming Face Wash") 
         //    (player === "Calendula Toner") || (player === "Midnight Recovery Oil Concentrate") ||
         //    (player === "Ultimate Hand Salve") || (player === "Pure Vitality") 
-    // }
