@@ -7,14 +7,6 @@ The Kiehl’s holiday gift guide will help customers choose items to customize t
 ## Objective
 Create a game to help customers pick the ultimate holiday gift for their friends, family, co-workers, and significant others.
 
-## Theme:
-Background Holiday Wonderland 
-Christmas Trees
-Festive
-
-## Colors: 
-Green
-Red
 
 ## Game Outline
 
