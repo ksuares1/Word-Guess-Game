@@ -30,7 +30,6 @@ When a player gets an answer wrong it defaults and recommends another gift optio
 ## Technologies
  - **Boostrap**
  - **JavaScript**
- 
- -**Jquery**
+  - **Jquery**
  - **HTML5/CSS**
 
