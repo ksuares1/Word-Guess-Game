@@ -22,6 +22,7 @@ Players are asked questions about Kiehl's products, and based on their answers i
 
 **Example**: This product was developed for harsh climates, but keeps your skin hydrated in various temperatures.
 
+
 **Answer**: Ultra Facial Cream - It will have 16 lines of _ _
 
 **Wrong Answer**: Rosa Artica(7 lines) - Then it would recommend Ultra Facial Cream to them, and picture of that would pop-up.
