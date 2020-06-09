@@ -3,6 +3,8 @@
 ## Purpose 
 During the holidays clients routinely come into Kiehl’s to purchase gifts for a special person in their lives. They have chosen to gift Kiehl’s to this person because they would like this individual to have a sensorial pampering experience, but they don’t want this person to feel offended when they are gifted with a bar of soap or body lotion. At Kiehl’s we have created customized value sets for clients this season, in addition to our customized complimentary gift wrapping service. 
 The Kiehl’s holiday gift guide will help customers choose items to customize their gifts or value sets that will introduce new client's to the world of Kiehl’s. 
+
+![Screenshot (220)](https://user-images.githubusercontent.com/44280043/84092207-ada24b00-a9c4-11ea-9025-a9b9f475d586.png)
  
 ## Objective
 Create a game to help customers pick the ultimate holiday gift for their friends, family, co-workers, and significant others.
