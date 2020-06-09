@@ -27,5 +27,9 @@ Players are asked questions about Kiehl's products, and based on their answers i
 **Wrong Answer**: Rosa Artica(7 lines) - Then it would recommend Ultra Facial Cream to them, and picture of that would pop-up.
 When a player gets an answer wrong it defaults and recommends another gift option.
 
-
+## Technologies
+ - **Boostrap**
+ - **JavaScript
+ -**Jquery**
+ - **HTML5/CSS**
 
